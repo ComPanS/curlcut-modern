@@ -21,13 +21,18 @@ export const prices: PriceRow[] = [
 ]
 
 export const works: WorkImage[] = [
-  { src: 'images/CURLCUT20312.jpg', alt: 'Рыжие длинные волосы с мягкой волной', position: '50% 28%' },
-  { src: 'images/CURLCUT12382.jpg', alt: 'Длинные тёмные волосы с центральным пробором', position: '50% 24%' },
-  { src: 'images/CURLCUT09412.jpg', alt: 'Короткая текстурная чёлка крупным планом', position: '50% 42%' },
-  { src: 'images/CURLCUT15132.jpg', alt: 'Авторская стрижка Curl Cut', position: '50% 25%' },
+  { src: 'images/CURLCUT10402.jpg', alt: 'Стрижка и укладка Curl Cut', position: '50% 50%' },
+  { src: 'images/CURLCUT16932.jpg', alt: 'Окрашивание и форма волос Curl Cut', position: '50% 50%' },
   { src: 'images/CURLCUT15702.jpg', alt: 'Форма и текстура волос в работе Curl Cut', position: '50% 24%' },
-  { src: 'images/CURLCUT19582.jpg', alt: 'Окрашивание и стрижка Curl Cut', position: '50% 25%' },
-  { src: 'images/CURLCUT16802.jpg', alt: 'Деталь текстуры волос в работе Curl Cut', position: '50% 45%' },
+  { src: 'images/CURLCUT12382.jpg', alt: 'Длинные тёмные волосы с центральным пробором', position: '50% 24%' },
+  { src: 'images/CURLCUT19972.jpg', alt: 'Стрижка и окрашивание Curl Cut', position: '50% 50%' },
+  { src: 'images/CURLCUT16302.jpg', alt: 'Текстурная стрижка Curl Cut', position: '50% 50%' },
+  { src: 'images/CURLCUT15132.jpg', alt: 'Авторская стрижка Curl Cut', position: '50% 25%' },
+  { src: 'images/CURLCUT20312.jpg', alt: 'Рыжие длинные волосы с мягкой волной', position: '50% 28%' },
+  { src: 'images/KIF_2645.JPG', alt: 'Работа с формой волос Curl Cut', position: '50% 50%' },
+  { src: 'images/Curl3.jpg', alt: 'Текстура волос и инструменты Curl Cut', position: '50% 50%' },
+  { src: 'images/CURLCUT12512.jpg', alt: 'Стрижка Curl Cut', position: '50% 50%' },
+  { src: 'images/CURLCUT13962.jpg', alt: 'Окрашивание Curl Cut', position: '50% 50%' },
 ]
 
 export const story = [
