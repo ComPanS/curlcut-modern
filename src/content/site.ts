@@ -35,6 +35,12 @@ export const works: WorkImage[] = [
   { src: 'images/CURLCUT13962.jpg', alt: 'Окрашивание Curl Cut', position: '50% 50%' },
 ]
 
+export const heroWorks: WorkImage[] = [
+  { src: 'images/CURLCUT20312.jpg', alt: 'Рыжие длинные волосы с мягкой волной', position: '50% 28%' },
+  { src: 'images/CURLCUT12382.jpg', alt: 'Длинные тёмные волосы с центральным пробором', position: '50% 24%' },
+  { src: 'images/CURLCUT09412.jpg', alt: 'Короткая текстурная чёлка крупным планом', position: '50% 42%' },
+]
+
 export const story = [
   'Curl Cut — авторский парикмахерский проект в центре Казани.',
   'Мы работаем с формой, цветом и текстурой, не ограничиваясь типами волос или шаблонами красоты.',

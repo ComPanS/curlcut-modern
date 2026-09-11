@@ -1,4 +1,4 @@
-import { priceTiers, prices, site, story, works } from '../content/site'
+import { heroWorks, priceTiers, prices, site, story, works } from '../content/site'
 
 const imageUrl = (path: string) => `${import.meta.env.BASE_URL}${path}`
 
@@ -8,9 +8,9 @@ export function HomePage() {
       <div className="hero-meta"><span>Камерная парикмахерская</span><span>Казань · Профсоюзная, 34</span></div>
       <h1 id="hero-title" className="hero-wordmark" aria-label="Curl Cut">CURL CUT</h1>
       <div className="hero-collage" aria-label="Работы Curl Cut">
-        <figure className="hero-shot hero-shot-main"><img src={imageUrl(works[0].src)} alt={works[0].alt} style={{ objectPosition: works[0].position }} /></figure>
-        <figure className="hero-shot hero-shot-top"><img src={imageUrl(works[1].src)} alt={works[1].alt} style={{ objectPosition: works[1].position }} /></figure>
-        <figure className="hero-shot hero-shot-bottom"><img src={imageUrl(works[2].src)} alt={works[2].alt} style={{ objectPosition: works[2].position }} /></figure>
+        <figure className="hero-shot hero-shot-main"><img src={imageUrl(heroWorks[0].src)} alt={heroWorks[0].alt} style={{ objectPosition: heroWorks[0].position }} /></figure>
+        <figure className="hero-shot hero-shot-top"><img src={imageUrl(heroWorks[1].src)} alt={heroWorks[1].alt} style={{ objectPosition: heroWorks[1].position }} /></figure>
+        <figure className="hero-shot hero-shot-bottom"><img src={imageUrl(heroWorks[2].src)} alt={heroWorks[2].alt} style={{ objectPosition: heroWorks[2].position }} /></figure>
         <p className="hero-statement">Работаем с формой, цветом и текстурой — без шаблонов красоты.</p>
         <a className="booking-orbit" href={site.bookingUrl} target="_blank" rel="noreferrer"><span>Записаться</span><b aria-hidden="true">↗</b></a>
       </div>
