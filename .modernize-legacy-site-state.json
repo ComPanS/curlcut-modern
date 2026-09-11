@@ -1,0 +1,42 @@
+{
+  "skill": "modernize-legacy-site",
+  "version": "1.0",
+  "sourceUrl": "https://curlcut.ru/",
+  "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/curlcut-modern",
+  "phase": "WAITING_FOR_PUBLICATION_APPROVAL",
+  "source": {
+    "language": "ru",
+    "businessName": "Curl Cut",
+    "location": "Казань, Профсоюзная, 34",
+    "mobileStatus": "limited",
+    "mobileEvidence": [
+      "At 390x844 the source renders the primary content in an approximately 120px-wide column, leaving most of the viewport blank.",
+      "The price table and supporting text are visibly compressed and not comfortably readable at the tested mobile viewport.",
+      "A mobile menu control is present, so the experience is limited rather than absent."
+    ]
+  },
+  "routes": [
+    { "path": "/", "stage": 1, "status": "implemented" },
+    { "path": "/dogovor-oferta", "stage": 2, "status": "deferred" },
+    { "path": "/policy", "stage": 2, "status": "deferred" },
+    { "path": "/ads", "stage": 2, "status": "deferred" },
+    { "path": "/personality", "stage": 2, "status": "deferred" }
+  ],
+  "local": {
+    "buildPassed": true,
+    "distPath": "/Users/aizat/Documents/Projects/RestoredOldSites/curlcut-modern/dist",
+    "previewUrl": "http://127.0.0.1:4174/",
+    "qa": {
+      "passes": 2,
+      "viewports": ["390x844", "768x1024", "1440x900"],
+      "anchors": true,
+      "mobileMenu": true,
+      "externalLinks": true,
+      "overflow": true,
+      "refresh": true,
+      "nonRootBase": "/curlcut-modern/"
+    }
+  },
+  "publication": { "approved": false },
+  "postPublication": { "screenshots": [], "clientMessagePresented": false }
+}
