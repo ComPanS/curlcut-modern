@@ -3,7 +3,7 @@
   "version": "1.0",
   "sourceUrl": "https://curlcut.ru/",
   "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/curlcut-modern",
-  "phase": "WAITING_FOR_PUBLICATION_APPROVAL",
+  "phase": "PUBLISHED",
   "source": {
     "language": "ru",
     "businessName": "Curl Cut",
@@ -37,6 +37,18 @@
       "nonRootBase": "/curlcut-modern/"
     }
   },
-  "publication": { "approved": false },
-  "postPublication": { "screenshots": [], "clientMessagePresented": false }
+  "publication": {
+    "approved": true,
+    "repositoryUrl": "https://github.com/ComPanS/curlcut-modern",
+    "pagesUrl": "https://compans.github.io/curlcut-modern/",
+    "workflowRunUrl": "https://github.com/ComPanS/curlcut-modern/actions/runs/34612627336",
+    "liveVerified": true
+  },
+  "postPublication": {
+    "screenshots": [
+      "outreach/screenshots/curlcut-home-desktop.png",
+      "outreach/screenshots/curlcut-home-mobile.png"
+    ],
+    "clientMessagePresented": false
+  }
 }
